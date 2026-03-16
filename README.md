@@ -5,7 +5,7 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
 
-![alt text](5.jpg)
+![alt text](5.png)
 
 ## DESIGN STEPS
 STEP 1: Load data, create word/tag mappings, and group sentences.
@@ -224,7 +224,7 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 
 ## Loss Vs Epoch Plot
 
-
+![alt text](5-1.jpg)
 
 ### Sample Text Prediction
 
