@@ -7,7 +7,9 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 ![alt text](5.png)
 
+
 ## DESIGN STEPS
+<<<<<<< HEAD
 STEP 1:
 Load data, create word/tag mappings, and group sentences.
 
@@ -22,6 +24,19 @@ Build a bidirectional LSTM model for sequence tagging.
 
 STEP 5:
 Train the model over multiple epochs, tracking loss.
+=======
+STEP 1: Load data, create word/tag mappings, and group sentences.
+
+STEP 2: Convert sentences to index sequences, pad to fixed length, and split into training/testing sets.
+
+STEP 3: Define dataset and DataLoader for batching.
+
+STEP 4: Build a bidirectional LSTM model for sequence tagging.
+
+STEP 5: Train the model over multiple epochs, tracking loss.
+
+STEP 6: Evaluate model accuracy, plot loss curves, and visualize predictions on a sample.
+>>>>>>> 211eaf6db93e824dcd5ef81b355f11b06dbc3b4a
 
 STEP 6:
 Evaluate model accuracy, plot loss curves, and visualize predictions on a sample.
@@ -233,7 +248,16 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 
 ### Sample Text Prediction
 
+<<<<<<< HEAD
 ![alt text](5-2.png)
 
 ## RESULT
 Thus a LSTM-based model for recognizing the named entities in the text has been developed successfully.
+=======
+
+
+## RESULT
+Thus a LSTM-based model for recognizing the named entities in the text has been developed successfully.
+
+
+>>>>>>> 211eaf6db93e824dcd5ef81b355f11b06dbc3b4a
