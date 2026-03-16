@@ -21,10 +21,6 @@ STEP 4: Build a bidirectional LSTM model for sequence tagging.
 STEP 5: Train the model over multiple epochs, tracking loss.
 
 STEP 6: Evaluate model accuracy, plot loss curves, and visualize predictions on a sample.
->>>>>>> 211eaf6db93e824dcd5ef81b355f11b06dbc3b4a
-
-STEP 6:
-Evaluate model accuracy, plot loss curves, and visualize predictions on a sample.
 
 ## PROGRAM
 
