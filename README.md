@@ -5,7 +5,7 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
 
-![alt text](5.png)
+https://ibb.co/ZpHgnpM3
 
 ## DESIGN STEPS
 STEP 1: Load data, create word/tag mappings, and group sentences.
